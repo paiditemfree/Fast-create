@@ -11,6 +11,13 @@
       padding: 20px;
       background: #f0f2f5;
       color: #1c1e21;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .content-wrapper {
+        flex: 1;
     }
     h1 {
       margin-bottom: 30px;
@@ -28,10 +35,8 @@
     
     /* --- Button Styles --- */
     .btn {
-      /* This width calculation forces two buttons per line on ALL screen sizes */
       width: calc(50% - 6px); /* 50% width minus half of the 12px gap */
       margin: 0;
-      
       padding: 14px 10px; /* Adjusted padding for smaller screens */
       background: #007bff;
       color: white;
@@ -48,58 +53,77 @@
       transform: scale(1.03);
       filter: brightness(1.1);
     }
+    /* --- Ad Container --- */
+    .ad-container {
+        margin: 20px auto 0 auto; /* Adds space above the ad */
+        width: 728px;
+        max-width: 100%; /* Ensures responsiveness */
+    }
 
   </style>
 </head>
 <body>
-  <h1>App Karigor</h1>
-  
-  <div class="button-container">
-    <a class="btn" href="https://hitools.pro/check-ip" target="_blank">IP Checker 1</a>
-    <a class="btn" href="https://whoer.net/" target="_blank">IP checker 2</a>
+  <div class="content-wrapper">
+    <h1>App Karigor</h1>
     
-    <a class="btn" href="https://hitools.pro/2fa" target="_blank">2FA 1</a>
-    <a class="btn" href="https://dongvanfb.net/get2fa/" target="_blank">2FA 2</a>
+    <div class="button-container">
+      <a class="btn" href="https://hitools.pro/check-ip" target="_blank">IP Checker 1</a>
+      <a class="btn" href="https://whoer.net/" target="_blank">IP checker 2</a>
+      
+      <a class="btn" href="https://hitools.pro/2fa" target="_blank">2FA 1</a>
+      <a class="btn" href="https://dongvanfb.net/get2fa/" target="_blank">2FA 2</a>
+      
+      <a class="btn" href="https://hitools.pro/find-id" target="_blank">FB UID</a>
+      <a class="btn" href="https://check.fb.tools/" target="_blank">FB ID Checker 1</a>
+      
+      <a class="btn" href="https://hitools.pro/check-live-uid" target="_blank">FB ID Checker 2</a>
+      <a class="btn" href="https://www.famety.com/instagram-username-checker" target="_blank">IG ID checker </a>
+      <a class="btn" href="https://en.gmailcheck.com/" target="_blank">Gmail checker </a>
+         
+      <a class="btn" href="https://dongvanfb.net/read_mail_box/" target="_blank">FB Hotmail 1</a>
+      <a class="btn" href="https://roton999.xyz/" target="_blank">FB Hotmail 2</a>
+      <a class="btn" href="https://mail.google.com/mail/mu/mp/704/#tl/priority/%5Esmartlabel_personal" target="_blank">Gmail</a>    
     
-    <a class="btn" href="https://hitools.pro/find-id" target="_blank">FB UID</a>
-    <a class="btn" href="https://check.fb.tools/" target="_blank">FB ID Checker 1</a>
-    
-    <a class="btn" href="https://hitools.pro/check-live-uid" target="_blank">FB ID Checker 2</a>
-    <a class="btn" href="https://www.famety.com/instagram-username-checker" target="_blank">IG ID checker </a>
-    <a class="btn" href="https://en.gmailcheck.com/" target="_blank">Gmail checker </a>
-       
-    <a class="btn" href="https://dongvanfb.net/read_mail_box/" target="_blank">FB Hotmail 1</a>
-    <a class="btn" href="https://roton999.xyz/" target="_blank">FB Hotmail 2</a>
-    <a class="btn" href="https://mail.google.com/mail/mu/mp/704/#tl/priority/%5Esmartlabel_personal" target="_blank">Gmail</a>    
-  
-    <a class="btn" href="https://paiditemfree.github.io/Naam-generator/" target="_blank">Name Generator</a>
+      <a class="btn" href="https://paiditemfree.github.io/Naam-generator/" target="_blank">Name Generator</a>
       <a class="btn" href="https://paiditemfree.github.io/password_generator/" target="_blank">Password Generator</a>
-    <a class="btn" href="https://paiditemfree.github.io/username-generator/" target="_blank">Username Generator</a>
-    
-    <a class="btn" href="https://inboxes.com/" target="_blank">TEMPMAIL 1</a>
-    
-    <a class="btn" href="https://fviainboxes.com/" target="_blank">TEMPMAIL 2</a>
-    <a class="btn" href="http://tempmail.plus" target="_blank">TEMPMAIL 3</a>
-    
-    <a class="btn" href="https://mail.cx/" target="_blank">TEMPMAIL 4</a>
-    <a class="btn" href="https://dispomail.xyz/" target="_blank">TEMPMAIL 5</a>
-    
-    <a class="btn" href="https://sakibbd.xyz/" target="_blank">TEMPMAIL 6</a>
-    <a class="btn" href="https://5smail.email/" target="_blank">TEMPMAIL 7</a>
-    
-    <a class="btn" href="https://shitmail.me/" target="_blank">TEMPMAIL 8</a>
-    
+      <a class="btn" href="https://paiditemfree.github.io/username-generator/" target="_blank">Username Generator</a>
+      
+      <a class="btn" href="https://inboxes.com/" target="_blank">TEMPMAIL 1</a>
+      
+      <a class="btn" href="https://fviainboxes.com/" target="_blank">TEMPMAIL 2</a>
+      <a class="btn" href="http://tempmail.plus" target="_blank">TEMPMAIL 3</a>
+      
+      <a class="btn" href="https://mail.cx/" target="_blank">TEMPMAIL 4</a>
+      <a class="btn" href="https://dispomail.xyz/" target="_blank">TEMPMAIL 5</a>
+      
+      <a class="btn" href="https://sakibbd.xyz/" target="_blank">TEMPMAIL 6</a>
+      <a class="btn" href="https://5smail.email/" target="_blank">TEMPMAIL 7</a>
+      
+      <a class="btn" href="https://shitmail.me/" target="_blank">TEMPMAIL 8</a>
+      
       <a class="btn" href="https://temp-mail.asia/" target="_blank">TEMPMAIL 9</a>
-      
+        
       <a class="btn" href="https://tempmail.ninja/" target="_blank">TEMPMAIL 10</a>
-      
-      
+        
       <a class="btn" href="https://spambox.xyz/" target="_blank">TEMPMAIL 11</a>
-      
+        
       <a class="btn" href="https://trashinbox.net/" target="_blank">TEMPMAIL 12</a>
-      
+        
       <a class="btn" href="https://trashmail.ws/" target="_blank">TEMPMAIL 13</a>
+    </div>
   </div>
 
-</body>
+  <div class="ad-container">
+    <script type="text/javascript">
+      atOptions = {
+        'key' : '3d7ea653d21ca57fc02555aee0a8d2d9',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+      };
+    </script>
+    <script type="text/javascript" src="//www.highperformanceformat.com/3d7ea653d21ca57fc02555aee0a8d2d9/invoke.js"></script>
+  </div>
+  </body>
 </html>
